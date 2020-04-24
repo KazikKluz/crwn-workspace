@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { auth } from "./firebase/firebase.utils.js";
 
@@ -6,13 +6,12 @@ import ShopPage from "./pages/shop/shop.component.jsx";
 import Header from "./components/header/header.component.jsx";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.jsx";
 
-import './App.css';
-import './homepage.styles.scss';
+import "./App.css";
+import "./homepage.styles.scss";
 
-import HomePage from './homepage.component';
+import HomePage from "./homepage.component";
 
 class App extends React.Component {
-
   constructor() {
     super();
 
@@ -22,7 +21,7 @@ class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
+    this.unsubscribeFromAuth = auth.onAuthStateChanged((user) => {
       this.setState({ currentUser: user });
       console.log(user);
     });
@@ -35,13 +34,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={HomePage}/>
-        <Route exact path="/shop" component={ShopPage}/>
-        <Route exact path="/signin" component={SignInAndSignUpPage}/>
-      </Switch>
-    </div>
+        <Header currentUser={this.state.currentUser} />
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/shop" component={ShopPage} />
+          <Route exact path="/signin" component={SignInAndSignUpPage} />
+        </Switch>
+      </div>
     );
   }
 }
