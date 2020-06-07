@@ -14,6 +14,7 @@ import "./App.css";
 import "./homepage.styles.scss";
 
 import HomePage from "./homepage.component";
+import Checkout from "./pages/checkout/checkout.page";
 
 class App extends React.Component {
   constructor() {
@@ -52,6 +53,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/shop" component={ShopPage} />
+          <Route exact path="/checkout" component={Checkout} />
           <Route
             exact
             path="/signin"
