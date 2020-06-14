@@ -7,7 +7,7 @@ import { signInWithGoogle } from "../../firebase/firebase.utils.js";
 
 class SignIn extends React.Component {
   constructor(props) {
-    super();
+    super(props);
 
     this.state = {
       email: "",
