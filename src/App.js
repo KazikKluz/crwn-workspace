@@ -6,11 +6,12 @@ import { setCurrentUser } from "./redux/user/user.actions.js";
 import ShopPage from "./pages/shop/shop.component.jsx";
 import Header from "./components/header/header.component.jsx";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.jsx";
-
+import { selectCurrentUser } from "./redux/user/user.selector";
 import "./App.css";
 import "./homepage.styles.scss";
 
 import HomePage from "./homepage.component";
+import { createStructuredSelector } from "reselect";
 
 class App extends React.Component {
   constructor() {
@@ -66,9 +67,9 @@ class App extends React.Component {
   }
 }
 
-const mapStateToProps = ({ user }) => {
-  return { currentUser: user.currentUser };
-};
+const mapStateToProps = createStructuredSelector({
+  currentUser: selectCurrentUser,
+});
 
 const mapDispatchToProps = (dispatch) => {
   return { setCurrentUser: (user) => dispatch(setCurrentUser(user)) };
