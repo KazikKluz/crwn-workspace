@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./node_modules/@types"],
+    "noEmit": true,
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "lib": [ "dom", "webworker", "es2017" ],
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules"],
+  "include": ["*.js"]
+}
