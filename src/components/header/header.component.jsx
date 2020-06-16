@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { auth } from "../../firebase/firebase.utils.js";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
-import { selectCartHidden, selectCart } from "../../redux/cart/cart.selector";
+import { selectCartHidden } from "../../redux/cart/cart.selector";
 
 import { selectCurrentUser } from "../../redux/user/user.selector";
 import { ReactComponent as Logo } from "../../assets/crown.svg";
@@ -13,8 +13,6 @@ import Cart from "../cart-dropdown/cart-dropdown.component";
 import "./header.styles.scss";
 
 const Header = ({ currentUser, hidden }) => {
-  console.log(selectCart);
-  console.log("hidden? " + hidden);
   return (
     <div className="header">
       <Link className="logo-container" to="/">
