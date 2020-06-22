@@ -1,0 +1,115 @@
+Info 0    [10:30:24.433] Starting TS Server
+Info 1    [10:30:24.433] Version: 3.9.3
+Info 2    [10:30:24.434] Arguments: /usr/bin/node /usr/bin/tsserver --logFile /home/fdiamond/Training/crwn-clothing/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/a33984aaef0e09c952fb1fa4e5d020aa/tscancellation*
+Info 3    [10:30:24.434] Platform: linux NodeVersion: 12 CaseSensitive: true
+Info 4    [10:30:25.306] Search path: /home/fdiamond/Training/crwn-clothing/src/redux/user
+Info 5    [10:30:25.310] For info: /home/fdiamond/Training/crwn-clothing/src/redux/user/user.actions.js :: Config file name: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 6    [10:30:25.311] Opened configuration file /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 7    [10:30:25.344] Config: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json : {
+ "rootNames": [
+  "/home/fdiamond/Training/crwn-clothing/src/App.js",
+  "/home/fdiamond/Training/crwn-clothing/src/App.test.js",
+  "/home/fdiamond/Training/crwn-clothing/src/homepage.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/index.js",
+  "/home/fdiamond/Training/crwn-clothing/src/serviceWorker.js",
+  "/home/fdiamond/Training/crwn-clothing/src/setupTests.js",
+  "/home/fdiamond/Training/crwn-clothing/src/components/cart-dropdown/cart-dropdown.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/components/cart-icon/cart-icon.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/components/collection-item/collection-item.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/components/collection-preview/collection-preview.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/components/custom-button/custom-button.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/components/directory-component/directory.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/components/form-input/form-input.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/components/header/header.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/components/menu-item/menu-item.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/components/sign-in/sign-in.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/components/sign-up/sign-up.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/firebase/firebase.utils.js",
+  "/home/fdiamond/Training/crwn-clothing/src/pages/shop/shop.component.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/pages/shop/shopData.js",
+  "/home/fdiamond/Training/crwn-clothing/src/pages/shop/signInAndSignUp.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.jsx",
+  "/home/fdiamond/Training/crwn-clothing/src/redux/root-reducer.js",
+  "/home/fdiamond/Training/crwn-clothing/src/redux/store.js",
+  "/home/fdiamond/Training/crwn-clothing/src/redux/cart/cart.actions.js",
+  "/home/fdiamond/Training/crwn-clothing/src/redux/cart/cart.reducer.js",
+  "/home/fdiamond/Training/crwn-clothing/src/redux/cart/cart.types.js",
+  "/home/fdiamond/Training/crwn-clothing/src/redux/user/user.actions.js",
+  "/home/fdiamond/Training/crwn-clothing/src/redux/user/user.reducer.js",
+  "/home/fdiamond/Training/crwn-clothing/src/redux/user/user.types.js"
+ ],
+ "options": {
+  "allowJs": true,
+  "maxNodeModuleJsDepth": 2,
+  "allowSyntheticDefaultImports": true,
+  "skipLibCheck": true,
+  "noEmit": true,
+  "target": 4,
+  "checkJs": true,
+  "jsx": 2,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.es2017.d.ts"
+  ],
+  "configFilePath": "/home/fdiamond/Training/crwn-clothing/src/jsconfig.json"
+ }
+}
+Info 8    [10:30:25.389] Starting updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 9    [10:30:27.163] Finishing updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json Version: 1 structureChanged: true Elapsed: 1774ms
+Info 10   [10:30:27.164] Project '/home/fdiamond/Training/crwn-clothing/src/jsconfig.json' (Configured)
+Info 11   [10:30:27.164] 	Files (164)
+
+Info 12   [10:30:27.164] -----------------------------------------------
+Info 13   [10:30:27.554] Starting updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 14   [10:30:27.599] Finishing updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json Version: 2 structureChanged: true Elapsed: 45ms
+Info 15   [10:30:27.599] Different program with same set of files:: oldProgram.structureIsReused:: 0
+Info 16   [10:30:29.805] Before ensureProjectForOpenFiles:
+Info 17   [10:30:29.805] After ensureProjectForOpenFiles:
+Info 18   [10:30:29.806] got projects updated in background, updating diagnostics for /home/fdiamond/Training/crwn-clothing/src/redux/user/user.actions.js
+Info 19   [10:32:21.997] Starting updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 20   [10:32:22.111] Finishing updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json Version: 3 structureChanged: true Elapsed: 114ms
+Info 21   [10:32:22.111] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 22   [10:32:22.506] forEachExternalModuleToImportFrom: filtered out 84 modules by package.json contents
+Info 23   [10:32:30.335] forEachExternalModuleToImportFrom: filtered out 84 modules by package.json contents
+Info 24   [10:32:30.688] Starting updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 25   [10:32:30.703] Finishing updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json Version: 4 structureChanged: false Elapsed: 15ms
+Info 26   [10:32:30.703] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 27   [10:32:30.741] forEachExternalModuleToImportFrom: filtered out 84 modules by package.json contents
+Info 28   [10:32:31.21] forEachExternalModuleToImportFrom: filtered out 84 modules by package.json contents
+Info 29   [10:32:31.591] Starting updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 30   [10:32:31.633] Finishing updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json Version: 5 structureChanged: true Elapsed: 42ms
+Info 31   [10:32:31.633] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 32   [10:32:33.946] Starting updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 33   [10:32:33.983] Finishing updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json Version: 6 structureChanged: true Elapsed: 37ms
+Info 34   [10:32:33.983] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 35   [10:32:33.985] getCompletionData: Get current token: 0
+Info 36   [10:32:33.985] getCompletionData: Is inside comment: 0
+Info 37   [10:32:33.985] getCompletionData: Get previous token 1: 0
+Info 38   [10:32:33.985] getCompletionData: Get previous token 2: 0
+Info 39   [10:32:33.985] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 40   [10:32:33.988] getSymbolsFromOtherSourceFileExports: Recomputing list
+Info 41   [10:32:33.997] forEachExternalModuleToImportFrom: filtered out 84 modules by package.json contents
+Info 42   [10:32:33.997] getSymbolsFromOtherSourceFileExports: 9
+Info 43   [10:32:34.0] getCompletionData: Semantic work: 15
+Info 44   [10:32:34.10] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10
+Info 45   [10:32:34.257] getCompletionData: Get current token: 0
+Info 46   [10:32:34.257] getCompletionData: Is inside comment: 0
+Info 47   [10:32:34.257] getCompletionData: Get previous token 1: 0
+Info 48   [10:32:34.257] getCompletionData: Get previous token 2: 0
+Info 49   [10:32:34.257] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 50   [10:32:34.263] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 51   [10:32:34.268] getCompletionData: Semantic work: 11
+Info 52   [10:32:35.13] Starting updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 53   [10:32:35.23] Finishing updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json Version: 7 structureChanged: false Elapsed: 10ms
+Info 54   [10:32:35.23] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 55   [10:32:35.42] forEachExternalModuleToImportFrom: filtered out 84 modules by package.json contents
+Info 56   [10:32:35.44] Starting updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 57   [10:32:35.59] Finishing updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json Version: 8 structureChanged: false Elapsed: 15ms
+Info 58   [10:32:35.59] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 59   [10:32:35.277] forEachExternalModuleToImportFrom: filtered out 84 modules by package.json contents
+Info 60   [10:32:35.481] Starting updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 61   [10:32:35.531] Finishing updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json Version: 9 structureChanged: true Elapsed: 50ms
+Info 62   [10:32:35.531] Different program with same set of files:: oldProgram.structureIsReused:: 1
+Info 63   [10:32:36.397] Starting updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json
+Info 64   [10:32:36.405] Finishing updateGraphWorker: Project: /home/fdiamond/Training/crwn-clothing/src/jsconfig.json Version: 10 structureChanged: false Elapsed: 8ms
+Info 65   [10:32:36.405] Different program with same set of files:: oldProgram.structureIsReused:: 2
