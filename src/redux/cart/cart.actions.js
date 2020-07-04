@@ -14,4 +14,9 @@ export const clearItemFromCart = (item) => ({
   payload: item,
 });
 
+export const removeItem = (item) => ({
+  type: cartActionTypes,
+  payload: item,
+});
+
 export default toggleCartHidden;
