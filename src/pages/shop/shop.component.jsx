@@ -8,10 +8,16 @@ import {
   convertCollectionSnapshotToMap,
 } from "../../firebase/firebase.utils";
 import CollectionOverview from "../../components/collection-overview/collection-overview.component";
-
 import CollectionPage from "../../pages/collection/collection-page";
 
+import withSpinner from "../../components/withSpinner/withSpinner.component";
+
+const CollectionOverviewWithSpinner = withSpinner(CollectionOverview);
+const CollectionPageWithSpinner = withSpinner(CollectionPage);
+
 class ShopPage extends React.Component {
+  state = { loading: true };
+
   unsubscribeFromSnapshot = null;
 
   componentDidMount() {
@@ -22,19 +28,29 @@ class ShopPage extends React.Component {
         const collectionsMap = convertCollectionSnapshotToMap(snapShot);
         console.log(collectionsMap);
         updateCollections(collectionsMap);
+        this.setState({ loading: false });
       }
     );
   }
 
   render() {
     const { match } = this.props;
+    const { loading } = this.state;
     return (
       <div className="shop-page">
-        <Route exact path={`${match.path}`} component={CollectionOverview} />
+        <Route
+          exact
+          path={`${match.path}`}
+          render={(props) => (
+            <CollectionOverviewWithSpinner isLoading={loading} {...props} />
+          )}
+        />
         <Route
           exact
           path={`${match.path}/:collectionId`}
-          component={CollectionPage}
+          render={(props) => (
+            <CollectionPageWithSpinner isLoading={loading} {...props} />
+          )}
         />
       </div>
     );
