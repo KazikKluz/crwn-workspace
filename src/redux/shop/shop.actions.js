@@ -12,8 +12,9 @@ export const fetchCollectionsStartAsync = () => {
   return (dispatch) => {
     const collectionRef = firestore.collection("collections");
     dispatch(fetchCollectionsStart);
-    this.unsubscribeFromSnapshot = collectionRef
-      .onSnapshot(async (snapShot) => {
+    collectionRef
+      .get()
+      .then(async (snapShot) => {
         const collectionsMap = convertCollectionSnapshotToMap(snapShot);
         dispatch(fetchCollectionsSuccess(collectionsMap));
       })
