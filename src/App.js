@@ -13,6 +13,7 @@ import "./App.css";
 import "./homepage.styles.scss";
 
 import HomePage from "./homepage.component";
+import CheckoutPage from "./pages/checkout/checkout.page";
 import { createStructuredSelector } from "reselect";
 
 class App extends React.Component {
@@ -63,6 +64,7 @@ class App extends React.Component {
               )
             }
           />
+          <Route exact path="/checkout" component={CheckoutPage} />
         </Switch>
       </div>
     );
