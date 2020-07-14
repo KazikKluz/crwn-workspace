@@ -1,10 +1,6 @@
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
-import {
-  auth,
-  createUserProfileDocument,
-  addCollectionAndDocuments,
-} from "./firebase/firebase.utils.js";
+import { auth, createUserProfileDocument } from "./firebase/firebase.utils.js";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
@@ -43,7 +39,6 @@ class App extends React.Component {
         });
       } else {
         setCurrentUser(userAuth);
-        addCollectionAndDocuments("collections", collectionsArray);
       }
     });
   }
