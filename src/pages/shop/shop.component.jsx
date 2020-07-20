@@ -11,31 +11,50 @@ import {
 import CollectionOverview from "../../components/collection-overview/collection-overview.component";
 
 import CollectionPage from "../../pages/collection/collection-page";
+import withSpinner from "../../components/withSpinner/withSpinner.component";
+
+const CollectionsOverviewWithSpinner = withSpinner(CollectionOverview);
+const CollectionPageWithSpinner = withSpinner(CollectionPage);
 
 class ShopPage extends React.Component {
+  state = { loading: true };
+
   unsubscribeFromSnapshot = null;
 
   componentDidMount() {
     const { updateCollections } = this.props;
     const collectionRef = firestore.collection("collections");
+    console.log(collectionRef);
 
     this.unsubscribeFromSnapshot = collectionRef.onSnapshot(
       async (snapShot) => {
         const collectionsMap = convertCollectionSnapshotToMap(snapShot);
+        console.log(collectionsMap);
         updateCollections(collectionsMap);
+        this.setState({ loading: false });
       }
     );
   }
 
   render() {
     const { match } = this.props;
+    const { loading } = this.state;
+    console.log(loading);
     return (
       <div className="shop-page">
-        <Route exact path={`${match.path}`} component={CollectionOverview} />
+        <Route
+          exact
+          path={`${match.path}`}
+          render={(props) => (
+            <CollectionsOverviewWithSpinner isLoading={loading} {...props} />
+          )}
+        />
         <Route
           exact
           path={`${match.path}/:collectionId`}
-          component={CollectionPage}
+          render={(props) => (
+            <CollectionPageWithSpinner isLoading={loading} {...props} />
+          )}
         />
       </div>
     );
