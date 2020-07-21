@@ -3,18 +3,10 @@ import { Route } from "react-router-dom";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
-import withSpinner from "../../components/withSpinner/with-spinner.component";
-import CollectionOverview from "../../components/collection-overview/collection-overview.component";
-import CollectionPage from "../../pages/collection/collection-page";
-
 import { fetchCollectionsStartAsync } from "../../redux/shop/shop.actions";
-import {
-  selectIsCollectionFetching,
-  selectIsCollectionsLoaded,
-} from "../../redux/shop/shop.selector";
-
-const CollectionOverviewWithSpinner = withSpinner(CollectionOverview);
-const CollectionPageWithSpinner = withSpinner(CollectionPage);
+import { selectIsCollectionsLoaded } from "../../redux/shop/shop.selector";
+import CollectionOverviewContainer from "../../components/collection-overview/collection-overview.container";
+import CollectionPageContainer from "../../pages/collection/collection-page.container";
 
 class ShopPage extends React.Component {
   state = { loading: true };
@@ -27,29 +19,18 @@ class ShopPage extends React.Component {
   }
 
   render() {
-    const { match, isCollectionFetching, isCollectionsLoaded } = this.props;
-    const { loading } = this.state;
+    const { match } = this.props;
     return (
       <div className="shop-page">
         <Route
           exact
           path={`${match.path}`}
-          render={(props) => (
-            <CollectionOverviewWithSpinner
-              isLoading={isCollectionFetching}
-              {...props}
-            />
-          )}
+          component={CollectionOverviewContainer}
         />
         <Route
           exact
           path={`${match.path}/:collectionId`}
-          render={(props) => (
-            <CollectionPageWithSpinner
-              isLoading={!isCollectionsLoaded}
-              {...props}
-            />
-          )}
+          component={CollectionPageContainer}
         />
       </div>
     );
@@ -57,7 +38,6 @@ class ShopPage extends React.Component {
 }
 
 const mapStateToProps = createStructuredSelector({
-  isCollectionFetching: selectIsCollectionFetching,
   isCollectionsLoaded: selectIsCollectionsLoaded,
 });
 
