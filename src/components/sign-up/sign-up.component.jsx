@@ -1,8 +1,11 @@
 import React from "react";
+import { connect } from "react-redux";
 import {
   auth,
   createUserProfileDocument,
 } from "../../firebase/firebase.utils.js";
+
+import { googleSignInStart } from "../../redux/user/user.actions";
 
 import FormInput from "../../components/form-input/form-input.component.jsx";
 import CustomButton from "../../components/custom-button/custom-button.component.jsx";
