@@ -7,11 +7,18 @@ import "./collection-page.styles.scss";
 
 import { selectCollection } from "../../redux/shop/shop.selector";
 
-const CollectionPage = ({ match }) => {
+const CollectionPage = ({ match, collection }) => {
   console.log(match.path.collectionId);
+
+  const { title, items } = collection;
   return (
-    <div className="collectio">
-      <h2>Collection Page</h2>
+    <div className="collection-page">
+      <h2 className="title">{title}</h2>
+      <div className="items">
+        {items.map((item) => (
+          <CollectionItem key={item.id} item={item} />
+        ))}
+      </div>
     </div>
   );
 };
