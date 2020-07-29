@@ -1,19 +1,15 @@
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
-import { auth, createUserProfileDocument } from "./firebase/firebase.utils.js";
 import { connect } from "react-redux";
-import { createStructuredSelector } from "reselect";
-
+import { checkUserSession } from "./redux/user/user.actions.js";
 import ShopPage from "./pages/shop/shop.component.jsx";
 import Header from "./components/header/header.component.jsx";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.jsx";
-import { selectCurrentUser } from "./redux/user/user.selector";
 
 import "./App.css";
 import "./homepage.styles.scss";
 
 import HomePage from "./homepage.component";
-import Checkout from "./pages/checkout/checkout.page";
 
 class App extends React.Component {
   constructor() {
@@ -25,20 +21,8 @@ class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    // const { setCurrentUser } = this.props;
-    // this.unsubscribeFromAuth = auth.onAuthStateChanged(async (userAuth) => {
-    //   if (userAuth) {
-    //     const userRef = await createUserProfileDocument(userAuth);
-    //     userRef.onSnapshot((snapShot) => {
-    //       setCurrentUser({
-    //         id: snapShot.id,
-    //         ...snapShot.data(),
-    //       });
-    //     });
-    //   } else {
-    //     setCurrentUser(userAuth);
-    //   }
-    // });
+    const { checkUserSession } = this.props;
+    checkUserSession();
   }
 
   componentWillUnmount() {
@@ -51,8 +35,7 @@ class App extends React.Component {
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route path="/shop" component={ShopPage} />
-          <Route exact path="/checkout" component={Checkout} />
+          <Route exact path="/shop" component={ShopPage} />
           <Route
             exact
             path="/signin"
@@ -70,8 +53,14 @@ class App extends React.Component {
   }
 }
 
-const mapStateToProps = createStructuredSelector({
-  currentUser: selectCurrentUser,
-});
+const mapStateToProps = ({ user }) => {
+  return { currentUser: user.currentUser };
+};
 
-export default connect(mapStateToProps)(App);
+const mapDispatchToProps = (dispatch) => {
+  return {
+    checkUserSession: () => dispatch(checkUserSession()),
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
