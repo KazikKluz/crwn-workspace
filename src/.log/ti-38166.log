@@ -1,0 +1,117 @@
+[22:33:31.728] Global cache location '/home/fdiamond/.cache/typescript/3.9', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[22:33:31.733] Processing cache location '/home/fdiamond/.cache/typescript/3.9'
+[22:33:31.733] Trying to find '/home/fdiamond/.cache/typescript/3.9/package.json'...
+[22:33:31.735] Loaded content of '/home/fdiamond/.cache/typescript/3.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.500"},"devDependencies":{"@types/assert":"^1.5.1","@types/async":"^3.2.3","@types/atob":"^2.1.2","@types/bcrypt":"^3.0.0","@types/body-parser":"^1.19.0","@types/bootstrap":"^4.5.0","@types/bson":"^4.0.2","@types/co":"^4.6.2","@types/content-disposition":"^0.5.3","@types/content-type":"^1.1.3","@types/cookie":"^0.4.0","@types/cookie-signature":"^1.0.3","@types/debug":"^4.1.5","@types/depd":"^1.1.32","@types/destroy":"^1.0.0","@types/ee-first":"^1.1.0","@types/ejs":"^3.0.4","@types/encodeurl":"^1.0.0","@types/escape-html":"^1.0.0","@types/etag":"^1.8.0","@types/express":"^4.17.7","@types/express-session":"^1.17.0","@types/finalhandler":"^1.1.0","@types/forwarded":"^0.1.0","@types/fresh":"^0.5.0","@types/gh-pages":"^3.0.0","@types/he":"^1.1.1","@types/hoist-non-react-statics":"^3.3.1","@types/http-errors":"^1.6.3","@types/isomorphic-fetch":"0.0.35","@types/jquery":"^3.5.0","@types/js-base64":"^3.0.0","@types/json-stable-stringify":"^1.0.32","@types/lodash":"^4.14.158","@types/md5":"^2.2.0","@types/methods":"^1.1.1","@types/mongodb":"^3.5.25","@types/mongoose":"^5.7.32","@types/ms":"^0.7.31","@types/node":"^14.0.1","@types/node-sass":"^4.11.1","@types/npm":"^2.0.31","@types/object-path":"^0.11.0","@types/on-finished":"^2.3.1","@types/on-headers":"^1.0.0","@types/parseurl":"^1.3.1","@types/passport":"^1.0.4","@types/passport-facebook":"^2.1.10","@types/passport-google-oauth":"^1.0.41","@types/passport-google-oauth20":"^2.0.3","@types/passport-local":"^1.0.33","@types/passport-local-mongoose":"^4.0.13","@types/passport-oauth2":"^1.4.9","@types/passport-strategy":"^0.2.35","@types/pause":"^0.1.0","@types/proxy-addr":"^2.0.0","@types/random-bytes":"^1.0.1","@types/react":"^16.9.43","@types/react-dom":"^16.9.8","@types/react-redux":"^7.1.9","@types/react-router-dom":"^5.1.5","@types/read":"0.0.28","@types/redux-logger":"^3.0.8","@types/request":"^2.48.5","@types/semver":"^7.2.0","@types/send":"^0.14.5","@types/sprintf":"^0.1.0","@types/statuses":"^2.0.0","@types/styled-components":"^5.1.1","@types/testing-library__jest-dom":"^5.9.1","@types/testing-library__react":"^10.0.1","@types/testing-library__user-event":"^4.1.1","@types/uid-safe":"^2.1.2","@types/underscore":"^1.10.0","@types/utils-merge":"0.0.28"}}
+[22:33:31.735] Loaded content of '/home/fdiamond/.cache/typescript/3.9/package-lock.json'
+[22:33:31.746] Adding entry into typings cache: 'assert' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/assert/ts3.7/index.d.ts'
+[22:33:31.752] Adding entry into typings cache: 'async' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/async/index.d.ts'
+[22:33:31.755] Adding entry into typings cache: 'atob' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/atob/index.d.ts'
+[22:33:31.759] Adding entry into typings cache: 'bcrypt' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/bcrypt/index.d.ts'
+[22:33:31.762] Adding entry into typings cache: 'body-parser' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/body-parser/index.d.ts'
+[22:33:31.765] Adding entry into typings cache: 'bootstrap' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/bootstrap/index.d.ts'
+[22:33:31.767] Adding entry into typings cache: 'bson' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/bson/index.d.ts'
+[22:33:31.770] Adding entry into typings cache: 'co' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/co/index.d.ts'
+[22:33:31.772] Adding entry into typings cache: 'content-disposition' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/content-disposition/index.d.ts'
+[22:33:31.773] Adding entry into typings cache: 'content-type' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/content-type/index.d.ts'
+[22:33:31.775] Adding entry into typings cache: 'cookie' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/cookie/index.d.ts'
+[22:33:31.778] Adding entry into typings cache: 'cookie-signature' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/cookie-signature/index.d.ts'
+[22:33:31.780] Adding entry into typings cache: 'debug' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/debug/index.d.ts'
+[22:33:31.782] Adding entry into typings cache: 'depd' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/depd/index.d.ts'
+[22:33:31.784] Adding entry into typings cache: 'destroy' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/destroy/index.d.ts'
+[22:33:31.786] Adding entry into typings cache: 'ee-first' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/ee-first/index.d.ts'
+[22:33:31.788] Adding entry into typings cache: 'ejs' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/ejs/index.d.ts'
+[22:33:31.790] Adding entry into typings cache: 'encodeurl' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/encodeurl/index.d.ts'
+[22:33:31.791] Adding entry into typings cache: 'escape-html' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/escape-html/index.d.ts'
+[22:33:31.793] Adding entry into typings cache: 'etag' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/etag/index.d.ts'
+[22:33:31.795] Adding entry into typings cache: 'express' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/express/index.d.ts'
+[22:33:31.797] Adding entry into typings cache: 'express-session' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/express-session/index.d.ts'
+[22:33:31.798] Adding entry into typings cache: 'finalhandler' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/finalhandler/index.d.ts'
+[22:33:31.800] Adding entry into typings cache: 'forwarded' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/forwarded/index.d.ts'
+[22:33:31.801] Adding entry into typings cache: 'fresh' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/fresh/index.d.ts'
+[22:33:31.803] Adding entry into typings cache: 'gh-pages' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/gh-pages/index.d.ts'
+[22:33:31.805] Adding entry into typings cache: 'he' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/he/index.d.ts'
+[22:33:31.811] Adding entry into typings cache: 'hoist-non-react-statics' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/hoist-non-react-statics/index.d.ts'
+[22:33:31.812] Adding entry into typings cache: 'http-errors' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/http-errors/index.d.ts'
+[22:33:31.814] Adding entry into typings cache: 'isomorphic-fetch' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/isomorphic-fetch/index.d.ts'
+[22:33:31.816] Adding entry into typings cache: 'jquery' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/jquery/index.d.ts'
+[22:33:31.818] Adding entry into typings cache: 'js-base64' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/js-base64/index.d.ts'
+[22:33:31.819] Adding entry into typings cache: 'json-stable-stringify' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/json-stable-stringify/index.d.ts'
+[22:33:31.822] Adding entry into typings cache: 'lodash' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/lodash/ts3.1/index.d.ts'
+[22:33:31.824] Adding entry into typings cache: 'md5' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/md5/index.d.ts'
+[22:33:31.825] Adding entry into typings cache: 'methods' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/methods/index.d.ts'
+[22:33:31.828] Adding entry into typings cache: 'mongodb' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/mongodb/index.d.ts'
+[22:33:31.832] Adding entry into typings cache: 'mongoose' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/mongoose/index.d.ts'
+[22:33:31.834] Adding entry into typings cache: 'ms' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/ms/index.d.ts'
+[22:33:31.838] Adding entry into typings cache: 'node' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/node/ts3.7/index.d.ts'
+[22:33:31.840] Adding entry into typings cache: 'node-sass' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/node-sass/index.d.ts'
+[22:33:31.841] Adding entry into typings cache: 'npm' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/npm/index.d.ts'
+[22:33:31.842] Adding entry into typings cache: 'object-path' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/object-path/index.d.ts'
+[22:33:31.843] Adding entry into typings cache: 'on-finished' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/on-finished/index.d.ts'
+[22:33:31.844] Adding entry into typings cache: 'on-headers' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/on-headers/index.d.ts'
+[22:33:31.845] Adding entry into typings cache: 'parseurl' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/parseurl/index.d.ts'
+[22:33:31.847] Adding entry into typings cache: 'passport' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport/index.d.ts'
+[22:33:31.850] Adding entry into typings cache: 'passport-facebook' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-facebook/index.d.ts'
+[22:33:31.851] Adding entry into typings cache: 'passport-google-oauth' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-google-oauth/index.d.ts'
+[22:33:31.852] Adding entry into typings cache: 'passport-google-oauth20' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-google-oauth20/index.d.ts'
+[22:33:31.853] Adding entry into typings cache: 'passport-local' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-local/index.d.ts'
+[22:33:31.854] Adding entry into typings cache: 'passport-local-mongoose' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-local-mongoose/index.d.ts'
+[22:33:31.855] Adding entry into typings cache: 'passport-oauth2' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-oauth2/index.d.ts'
+[22:33:31.856] Adding entry into typings cache: 'passport-strategy' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-strategy/index.d.ts'
+[22:33:31.857] Adding entry into typings cache: 'pause' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/pause/index.d.ts'
+[22:33:31.858] Adding entry into typings cache: 'proxy-addr' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/proxy-addr/index.d.ts'
+[22:33:31.859] Adding entry into typings cache: 'random-bytes' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/random-bytes/index.d.ts'
+[22:33:31.861] Adding entry into typings cache: 'react' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts'
+[22:33:31.863] Adding entry into typings cache: 'react-dom' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react-dom/index.d.ts'
+[22:33:31.864] Adding entry into typings cache: 'react-redux' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react-redux/index.d.ts'
+[22:33:31.865] Adding entry into typings cache: 'react-router-dom' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react-router-dom/index.d.ts'
+[22:33:31.867] Adding entry into typings cache: 'read' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/read/index.d.ts'
+[22:33:31.867] Adding entry into typings cache: 'redux-logger' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/redux-logger/index.d.ts'
+[22:33:31.873] Adding entry into typings cache: 'request' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/request/index.d.ts'
+[22:33:31.874] Adding entry into typings cache: 'semver' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/semver/index.d.ts'
+[22:33:31.875] Adding entry into typings cache: 'send' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/send/index.d.ts'
+[22:33:31.878] Adding entry into typings cache: 'sprintf' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/sprintf/index.d.ts'
+[22:33:31.879] Adding entry into typings cache: 'statuses' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/statuses/index.d.ts'
+[22:33:31.882] Adding entry into typings cache: 'styled-components' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/styled-components/ts3.7/index.d.ts'
+[22:33:31.885] Adding entry into typings cache: 'testing-library__jest-dom' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/testing-library__jest-dom/index.d.ts'
+[22:33:31.887] Adding entry into typings cache: 'testing-library__react' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/testing-library__react/index.d.ts'
+[22:33:31.889] Adding entry into typings cache: 'testing-library__user-event' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/testing-library__user-event/index.d.ts'
+[22:33:31.889] Adding entry into typings cache: 'uid-safe' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/uid-safe/index.d.ts'
+[22:33:31.890] Adding entry into typings cache: 'underscore' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/underscore/index.d.ts'
+[22:33:31.891] Adding entry into typings cache: 'utils-merge' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/utils-merge/index.d.ts'
+[22:33:31.891] Finished processing cache location '/home/fdiamond/.cache/typescript/3.9'
+[22:33:31.892] Process id: 38173
+[22:33:31.892] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[22:33:31.892] validateDefaultNpmLocation: false
+[22:33:31.892] Npm config file: /home/fdiamond/.cache/typescript/3.9/package.json
+[22:33:31.892] Updating types-registry npm package...
+[22:33:31.892] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[22:33:33.491]     Succeeded. stdout:
+    + types-registry@0.1.500
+    updated 1 package and audited 129 packages in 1.176s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+[22:33:33.491] Updated types-registry npm package
+[22:33:35.531] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/redux/user/user.types.js","/home/fdiamond/Training/crwn-clothing/src/redux/user/user.actions.js","/home/fdiamond/Training/crwn-clothing/src/components/form-input/form-input.component.jsx","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/custom-button.styles.js","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/custom-button.component.jsx","/home/fdiamond/Training/crwn-clothing/src/components/sign-up/sign-up.component.jsx"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/sign-up","kind":"discover"}
+[22:33:35.540] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[22:33:35.541] Explicitly included types: []
+[22:33:35.542] Inferred 'react' typings due to presence of '.jsx' extension
+[22:33:35.542] Inferred typings from unresolved imports: []
+[22:33:35.542] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/redux/user/bower_components","/home/fdiamond/Training/crwn-clothing/src/redux/user/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/form-input/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/form-input/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/sign-up/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/sign-up/node_modules"]}
+[22:33:35.542] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/redux/user/bower_components","/home/fdiamond/Training/crwn-clothing/src/redux/user/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/form-input/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/form-input/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/sign-up/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/sign-up/node_modules"]}
+[22:33:35.542] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/redux/user/bower_components
+[22:33:35.545] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/redux/user/node_modules
+[22:33:35.545] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/form-input/bower_components
+[22:33:35.545] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/form-input/node_modules
+[22:33:35.546] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/custom-button/bower_components
+[22:33:35.546] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/custom-button/node_modules
+[22:33:35.546] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/sign-up/bower_components
+[22:33:35.546] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/sign-up/node_modules
+[22:33:35.546] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[22:33:35.547] Response has been sent.
+[22:33:35.547] No new typings were requested as a result of typings discovery
