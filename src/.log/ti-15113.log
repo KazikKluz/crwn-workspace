@@ -1,0 +1,328 @@
+[8:37:46.100] Global cache location '/home/fdiamond/.cache/typescript/3.9', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[8:37:46.101] Processing cache location '/home/fdiamond/.cache/typescript/3.9'
+[8:37:46.101] Trying to find '/home/fdiamond/.cache/typescript/3.9/package.json'...
+[8:37:46.106] Loaded content of '/home/fdiamond/.cache/typescript/3.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.501"},"devDependencies":{"@types/assert":"^1.5.1","@types/async":"^3.2.3","@types/atob":"^2.1.2","@types/bcrypt":"^3.0.0","@types/body-parser":"^1.19.0","@types/bootstrap":"^4.5.0","@types/bson":"^4.0.2","@types/co":"^4.6.2","@types/content-disposition":"^0.5.3","@types/content-type":"^1.1.3","@types/cookie":"^0.4.0","@types/cookie-signature":"^1.0.3","@types/debug":"^4.1.5","@types/depd":"^1.1.32","@types/destroy":"^1.0.0","@types/ee-first":"^1.1.0","@types/ejs":"^3.0.4","@types/encodeurl":"^1.0.0","@types/escape-html":"^1.0.0","@types/etag":"^1.8.0","@types/express":"^4.17.7","@types/express-session":"^1.17.0","@types/finalhandler":"^1.1.0","@types/forwarded":"^0.1.0","@types/fresh":"^0.5.0","@types/gh-pages":"^3.0.0","@types/he":"^1.1.1","@types/hoist-non-react-statics":"^3.3.1","@types/http-errors":"^1.6.3","@types/isomorphic-fetch":"0.0.35","@types/jquery":"^3.5.0","@types/js-base64":"^3.0.0","@types/json-stable-stringify":"^1.0.32","@types/lodash":"^4.14.158","@types/md5":"^2.2.0","@types/methods":"^1.1.1","@types/mongodb":"^3.5.25","@types/mongoose":"^5.7.34","@types/ms":"^0.7.31","@types/node":"^14.0.1","@types/node-sass":"^4.11.1","@types/npm":"^2.0.31","@types/object-path":"^0.11.0","@types/on-finished":"^2.3.1","@types/on-headers":"^1.0.0","@types/parseurl":"^1.3.1","@types/passport":"^1.0.4","@types/passport-facebook":"^2.1.10","@types/passport-google-oauth":"^1.0.41","@types/passport-google-oauth20":"^2.0.3","@types/passport-local":"^1.0.33","@types/passport-local-mongoose":"^4.0.13","@types/passport-oauth2":"^1.4.9","@types/passport-strategy":"^0.2.35","@types/pause":"^0.1.0","@types/proxy-addr":"^2.0.0","@types/random-bytes":"^1.0.1","@types/react":"^16.9.43","@types/react-dom":"^16.9.8","@types/react-redux":"^7.1.9","@types/react-router-dom":"^5.1.5","@types/read":"0.0.28","@types/redux-logger":"^3.0.8","@types/request":"^2.48.5","@types/semver":"^7.2.0","@types/send":"^0.14.5","@types/sprintf":"^0.1.0","@types/statuses":"^2.0.0","@types/styled-components":"^5.1.1","@types/testing-library__jest-dom":"^5.9.2","@types/testing-library__react":"^10.0.1","@types/testing-library__user-event":"^4.1.1","@types/uid-safe":"^2.1.2","@types/underscore":"^1.10.0","@types/utils-merge":"0.0.28"}}
+[8:37:46.106] Loaded content of '/home/fdiamond/.cache/typescript/3.9/package-lock.json'
+[8:37:46.114] Adding entry into typings cache: 'assert' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/assert/ts3.7/index.d.ts'
+[8:37:46.118] Adding entry into typings cache: 'async' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/async/index.d.ts'
+[8:37:46.120] Adding entry into typings cache: 'atob' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/atob/index.d.ts'
+[8:37:46.124] Adding entry into typings cache: 'bcrypt' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/bcrypt/index.d.ts'
+[8:37:46.126] Adding entry into typings cache: 'body-parser' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/body-parser/index.d.ts'
+[8:37:46.128] Adding entry into typings cache: 'bootstrap' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/bootstrap/index.d.ts'
+[8:37:46.130] Adding entry into typings cache: 'bson' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/bson/index.d.ts'
+[8:37:46.132] Adding entry into typings cache: 'co' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/co/index.d.ts'
+[8:37:46.135] Adding entry into typings cache: 'content-disposition' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/content-disposition/index.d.ts'
+[8:37:46.136] Adding entry into typings cache: 'content-type' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/content-type/index.d.ts'
+[8:37:46.138] Adding entry into typings cache: 'cookie' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/cookie/index.d.ts'
+[8:37:46.140] Adding entry into typings cache: 'cookie-signature' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/cookie-signature/index.d.ts'
+[8:37:46.142] Adding entry into typings cache: 'debug' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/debug/index.d.ts'
+[8:37:46.144] Adding entry into typings cache: 'depd' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/depd/index.d.ts'
+[8:37:46.146] Adding entry into typings cache: 'destroy' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/destroy/index.d.ts'
+[8:37:46.148] Adding entry into typings cache: 'ee-first' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/ee-first/index.d.ts'
+[8:37:46.150] Adding entry into typings cache: 'ejs' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/ejs/index.d.ts'
+[8:37:46.151] Adding entry into typings cache: 'encodeurl' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/encodeurl/index.d.ts'
+[8:37:46.153] Adding entry into typings cache: 'escape-html' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/escape-html/index.d.ts'
+[8:37:46.155] Adding entry into typings cache: 'etag' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/etag/index.d.ts'
+[8:37:46.157] Adding entry into typings cache: 'express' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/express/index.d.ts'
+[8:37:46.159] Adding entry into typings cache: 'express-session' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/express-session/index.d.ts'
+[8:37:46.160] Adding entry into typings cache: 'finalhandler' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/finalhandler/index.d.ts'
+[8:37:46.161] Adding entry into typings cache: 'forwarded' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/forwarded/index.d.ts'
+[8:37:46.163] Adding entry into typings cache: 'fresh' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/fresh/index.d.ts'
+[8:37:46.164] Adding entry into typings cache: 'gh-pages' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/gh-pages/index.d.ts'
+[8:37:46.167] Adding entry into typings cache: 'he' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/he/index.d.ts'
+[8:37:46.172] Adding entry into typings cache: 'hoist-non-react-statics' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/hoist-non-react-statics/index.d.ts'
+[8:37:46.175] Adding entry into typings cache: 'http-errors' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/http-errors/index.d.ts'
+[8:37:46.176] Adding entry into typings cache: 'isomorphic-fetch' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/isomorphic-fetch/index.d.ts'
+[8:37:46.178] Adding entry into typings cache: 'jquery' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/jquery/index.d.ts'
+[8:37:46.179] Adding entry into typings cache: 'js-base64' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/js-base64/index.d.ts'
+[8:37:46.180] Adding entry into typings cache: 'json-stable-stringify' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/json-stable-stringify/index.d.ts'
+[8:37:46.183] Adding entry into typings cache: 'lodash' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/lodash/ts3.1/index.d.ts'
+[8:37:46.185] Adding entry into typings cache: 'md5' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/md5/index.d.ts'
+[8:37:46.186] Adding entry into typings cache: 'methods' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/methods/index.d.ts'
+[8:37:46.188] Adding entry into typings cache: 'mongodb' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/mongodb/index.d.ts'
+[8:37:46.192] Adding entry into typings cache: 'mongoose' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/mongoose/index.d.ts'
+[8:37:46.194] Adding entry into typings cache: 'ms' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/ms/index.d.ts'
+[8:37:46.198] Adding entry into typings cache: 'node' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/node/ts3.7/index.d.ts'
+[8:37:46.199] Adding entry into typings cache: 'node-sass' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/node-sass/index.d.ts'
+[8:37:46.200] Adding entry into typings cache: 'npm' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/npm/index.d.ts'
+[8:37:46.202] Adding entry into typings cache: 'object-path' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/object-path/index.d.ts'
+[8:37:46.203] Adding entry into typings cache: 'on-finished' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/on-finished/index.d.ts'
+[8:37:46.204] Adding entry into typings cache: 'on-headers' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/on-headers/index.d.ts'
+[8:37:46.205] Adding entry into typings cache: 'parseurl' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/parseurl/index.d.ts'
+[8:37:46.206] Adding entry into typings cache: 'passport' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport/index.d.ts'
+[8:37:46.208] Adding entry into typings cache: 'passport-facebook' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-facebook/index.d.ts'
+[8:37:46.209] Adding entry into typings cache: 'passport-google-oauth' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-google-oauth/index.d.ts'
+[8:37:46.210] Adding entry into typings cache: 'passport-google-oauth20' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-google-oauth20/index.d.ts'
+[8:37:46.210] Adding entry into typings cache: 'passport-local' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-local/index.d.ts'
+[8:37:46.211] Adding entry into typings cache: 'passport-local-mongoose' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-local-mongoose/index.d.ts'
+[8:37:46.212] Adding entry into typings cache: 'passport-oauth2' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-oauth2/index.d.ts'
+[8:37:46.213] Adding entry into typings cache: 'passport-strategy' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/passport-strategy/index.d.ts'
+[8:37:46.214] Adding entry into typings cache: 'pause' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/pause/index.d.ts'
+[8:37:46.215] Adding entry into typings cache: 'proxy-addr' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/proxy-addr/index.d.ts'
+[8:37:46.215] Adding entry into typings cache: 'random-bytes' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/random-bytes/index.d.ts'
+[8:37:46.217] Adding entry into typings cache: 'react' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts'
+[8:37:46.220] Adding entry into typings cache: 'react-dom' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react-dom/index.d.ts'
+[8:37:46.221] Adding entry into typings cache: 'react-redux' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react-redux/index.d.ts'
+[8:37:46.222] Adding entry into typings cache: 'react-router-dom' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react-router-dom/index.d.ts'
+[8:37:46.224] Adding entry into typings cache: 'read' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/read/index.d.ts'
+[8:37:46.225] Adding entry into typings cache: 'redux-logger' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/redux-logger/index.d.ts'
+[8:37:46.225] Adding entry into typings cache: 'request' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/request/index.d.ts'
+[8:37:46.227] Adding entry into typings cache: 'semver' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/semver/index.d.ts'
+[8:37:46.228] Adding entry into typings cache: 'send' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/send/index.d.ts'
+[8:37:46.230] Adding entry into typings cache: 'sprintf' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/sprintf/index.d.ts'
+[8:37:46.231] Adding entry into typings cache: 'statuses' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/statuses/index.d.ts'
+[8:37:46.234] Adding entry into typings cache: 'styled-components' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/styled-components/ts3.7/index.d.ts'
+[8:37:46.235] Adding entry into typings cache: 'testing-library__jest-dom' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/testing-library__jest-dom/index.d.ts'
+[8:37:46.237] Adding entry into typings cache: 'testing-library__react' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/testing-library__react/index.d.ts'
+[8:37:46.239] Adding entry into typings cache: 'testing-library__user-event' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/testing-library__user-event/index.d.ts'
+[8:37:46.239] Adding entry into typings cache: 'uid-safe' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/uid-safe/index.d.ts'
+[8:37:46.240] Adding entry into typings cache: 'underscore' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/underscore/index.d.ts'
+[8:37:46.241] Adding entry into typings cache: 'utils-merge' => '/home/fdiamond/.cache/typescript/3.9/node_modules/@types/utils-merge/index.d.ts'
+[8:37:46.241] Finished processing cache location '/home/fdiamond/.cache/typescript/3.9'
+[8:37:46.241] Process id: 15120
+[8:37:46.241] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[8:37:46.241] validateDefaultNpmLocation: false
+[8:37:46.241] Npm config file: /home/fdiamond/.cache/typescript/3.9/package.json
+[8:37:46.241] Updating types-registry npm package...
+[8:37:46.241] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[8:37:48.166]     Succeeded. stdout:
+    + types-registry@0.1.501
+    updated 1 package and audited 129 packages in 1.552s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+[8:37:48.166] Updated types-registry npm package
+[8:37:50.270] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/form-input/form-input.component.jsx","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/custom-button.styles.js","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/custom-button.component.jsx","/home/fdiamond/Training/crwn-clothing/src/firebase/firebase.utils.js","/home/fdiamond/Training/crwn-clothing/src/redux/user/user.types.js","/home/fdiamond/Training/crwn-clothing/src/redux/user/user.actions.js","/home/fdiamond/Training/crwn-clothing/src/components/sign-in/sign-in.component.jsx"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/sign-in","kind":"discover"}
+[8:37:50.281] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[8:37:50.281] Explicitly included types: []
+[8:37:50.282] Inferred 'react' typings due to presence of '.jsx' extension
+[8:37:50.282] Inferred typings from unresolved imports: []
+[8:37:50.282] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/form-input/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/form-input/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/node_modules","/home/fdiamond/Training/crwn-clothing/src/firebase/bower_components","/home/fdiamond/Training/crwn-clothing/src/firebase/node_modules","/home/fdiamond/Training/crwn-clothing/src/redux/user/bower_components","/home/fdiamond/Training/crwn-clothing/src/redux/user/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/sign-in/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/sign-in/node_modules"]}
+[8:37:50.282] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/form-input/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/form-input/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/node_modules","/home/fdiamond/Training/crwn-clothing/src/firebase/bower_components","/home/fdiamond/Training/crwn-clothing/src/firebase/node_modules","/home/fdiamond/Training/crwn-clothing/src/redux/user/bower_components","/home/fdiamond/Training/crwn-clothing/src/redux/user/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/sign-in/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/sign-in/node_modules"]}
+[8:37:50.283] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/form-input/bower_components
+[8:37:50.284] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/form-input/node_modules
+[8:37:50.284] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/custom-button/bower_components
+[8:37:50.284] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/custom-button/node_modules
+[8:37:50.284] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/firebase/bower_components
+[8:37:50.285] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/firebase/node_modules
+[8:37:50.285] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/redux/user/bower_components
+[8:37:50.285] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/redux/user/node_modules
+[8:37:50.285] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/sign-in/bower_components
+[8:37:50.285] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/sign-in/node_modules
+[8:37:50.285] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[8:37:50.286] Response has been sent.
+[8:37:50.286] No new typings were requested as a result of typings discovery
+[8:47:21.775] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/global.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/form-input/form-input.component.jsx","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/custom-button.styles.js","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/custom-button.component.jsx","/home/fdiamond/Training/crwn-clothing/src/firebase/firebase.utils.js","/home/fdiamond/Training/crwn-clothing/src/components/sign-in/sign-in.component.jsx"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/sign-in","kind":"discover"}
+[8:47:21.776] Explicitly included types: []
+[8:47:21.776] Inferred 'react' typings due to presence of '.jsx' extension
+[8:47:21.776] Inferred typings from unresolved imports: []
+[8:47:21.776] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/form-input/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/form-input/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/node_modules","/home/fdiamond/Training/crwn-clothing/src/firebase/bower_components","/home/fdiamond/Training/crwn-clothing/src/firebase/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/sign-in/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/sign-in/node_modules"]}
+[8:47:21.776] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/form-input/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/form-input/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/custom-button/node_modules","/home/fdiamond/Training/crwn-clothing/src/firebase/bower_components","/home/fdiamond/Training/crwn-clothing/src/firebase/node_modules","/home/fdiamond/Training/crwn-clothing/src/components/sign-in/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/sign-in/node_modules"]}
+[8:47:21.777] DirectoryWatcher:: Closed:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/redux/user/bower_components
+[8:47:21.777] DirectoryWatcher:: Closed:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/redux/user/node_modules
+[8:47:21.777] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[8:47:21.777] Response has been sent.
+[8:47:21.777] No new typings were requested as a result of typings discovery
+[8:48:11.733] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/redux/shop/shop.types.js","/home/fdiamond/Training/crwn-clothing/src/redux/shop/shop.reducer.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/redux/shop","kind":"discover"}
+[8:48:11.734] Explicitly included types: []
+[8:48:11.734] Inferred typings from unresolved imports: []
+[8:48:11.734] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/redux/shop/bower_components","/home/fdiamond/Training/crwn-clothing/src/redux/shop/node_modules"]}
+[8:48:11.734] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/redux/shop/bower_components","/home/fdiamond/Training/crwn-clothing/src/redux/shop/node_modules"]}
+[8:48:11.734] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/redux/shop/bower_components
+[8:48:11.735] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/redux/shop/node_modules
+[8:48:11.735] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[8:48:11.735] Response has been sent.
+[8:48:11.735] No new typings were requested as a result of typings discovery
+[8:48:48.572] Got install request {"projectName":"/dev/null/inferredProject3*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/redux/shop/shop.selector.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/redux/shop","kind":"discover"}
+[8:48:48.572] Explicitly included types: []
+[8:48:48.572] Inferred typings from unresolved imports: []
+[8:48:48.573] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/redux/shop/bower_components","/home/fdiamond/Training/crwn-clothing/src/redux/shop/node_modules"]}
+[8:48:48.573] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/redux/shop/bower_components","/home/fdiamond/Training/crwn-clothing/src/redux/shop/node_modules"]}
+[8:48:48.573] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/redux/shop/bower_components
+[8:48:48.573] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/redux/shop/node_modules
+[8:48:48.573] Sending response:
+    {"projectName":"/dev/null/inferredProject3*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[8:48:48.573] Response has been sent.
+[8:48:48.573] No new typings were requested as a result of typings discovery
+[9:9:42.665] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.component.jsx"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:9:42.666] Explicitly included types: []
+[9:9:42.666] Inferred 'react' typings due to presence of '.jsx' extension
+[9:9:42.666] Inferred typings from unresolved imports: []
+[9:9:42.667] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:9:42.667] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:9:42.667] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components
+[9:9:42.667] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules
+[9:9:42.667] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[9:9:42.667] Response has been sent.
+[9:9:42.667] No new typings were requested as a result of typings discovery
+[9:9:43.890] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/global.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:9:43.891] Explicitly included types: []
+[9:9:43.891] Inferred typings from unresolved imports: []
+[9:9:43.891] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:9:43.891] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:9:43.892] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[9:9:43.892] Response has been sent.
+[9:9:43.892] No new typings were requested as a result of typings discovery
+[9:9:44.260] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":[],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:9:44.260] Explicitly included types: []
+[9:9:44.261] Inferred typings from unresolved imports: []
+[9:9:44.261] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:9:44.261] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:9:44.261] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[9:9:44.261] Response has been sent.
+[9:9:44.261] No new typings were requested as a result of typings discovery
+[9:10:11.450] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.styles.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:10:11.450] Explicitly included types: []
+[9:10:11.450] Inferred typings from unresolved imports: []
+[9:10:11.451] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:10:11.451] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:10:11.451] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[9:10:11.451] Response has been sent.
+[9:10:11.451] No new typings were requested as a result of typings discovery
+[9:10:11.807] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":[],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:10:11.807] Explicitly included types: []
+[9:10:11.808] Inferred typings from unresolved imports: []
+[9:10:11.808] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:10:11.808] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:10:11.808] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[9:10:11.808] Response has been sent.
+[9:10:11.808] No new typings were requested as a result of typings discovery
+[9:10:19.585] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.styles.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:10:19.585] Explicitly included types: []
+[9:10:19.585] Inferred typings from unresolved imports: []
+[9:10:19.585] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:10:19.586] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:10:19.586] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[9:10:19.586] Response has been sent.
+[9:10:19.586] No new typings were requested as a result of typings discovery
+[9:12:16.256] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.styles.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:12:16.256] Explicitly included types: []
+[9:12:16.256] Inferred typings from unresolved imports: []
+[9:12:16.257] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:16.257] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:16.257] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[9:12:16.257] Response has been sent.
+[9:12:16.257] No new typings were requested as a result of typings discovery
+[9:12:24.256] Got install request {"projectName":"/dev/null/inferredProject5*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.component.jsx"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:12:24.256] Explicitly included types: []
+[9:12:24.256] Inferred 'react' typings due to presence of '.jsx' extension
+[9:12:24.256] Inferred typings from unresolved imports: []
+[9:12:24.256] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:24.256] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:24.256] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components
+[9:12:24.256] DirectoryWatcher:: Added:: WatchInfo: /home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules
+[9:12:24.256] Sending response:
+    {"projectName":"/dev/null/inferredProject5*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[9:12:24.257] Response has been sent.
+[9:12:24.257] No new typings were requested as a result of typings discovery
+[9:12:24.411] Got install request {"projectName":"/dev/null/inferredProject5*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.component.jsx","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/global.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:12:24.411] Explicitly included types: []
+[9:12:24.412] Inferred 'react' typings due to presence of '.jsx' extension
+[9:12:24.412] Inferred typings from unresolved imports: []
+[9:12:24.412] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:24.412] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:24.412] Sending response:
+    {"projectName":"/dev/null/inferredProject5*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[9:12:24.412] Response has been sent.
+[9:12:24.412] No new typings were requested as a result of typings discovery
+[9:12:33.653] Got install request {"projectName":"/dev/null/inferredProject5*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.component.jsx","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/global.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["re"],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:12:33.653] Explicitly included types: []
+[9:12:33.653] Inferred 'react' typings due to presence of '.jsx' extension
+[9:12:33.653] Inferred typings from unresolved imports: ["re"]
+[9:12:33.653] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":["re"],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:33.653] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":["re"],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:33.654] Installing typings ["re"]
+[9:12:33.654] 're':: Entry for package 're' does not exist in local types registry - skipping...
+[9:12:33.654] All typings are known to be missing or invalid - no need to install more typings
+[9:12:33.654] Sending response:
+    {"projectName":"/dev/null/inferredProject5*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":["re"],"kind":"action::set"}
+[9:12:33.654] Response has been sent.
+[9:12:33.687] Got install request {"projectName":"/dev/null/inferredProject5*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.component.jsx","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/global.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["rea"],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:12:33.688] Explicitly included types: []
+[9:12:33.688] Inferred 'react' typings due to presence of '.jsx' extension
+[9:12:33.688] Inferred typings from unresolved imports: ["rea"]
+[9:12:33.688] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":["rea"],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:33.688] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":["rea"],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:33.688] Installing typings ["rea"]
+[9:12:33.688] 'rea':: Entry for package 'rea' does not exist in local types registry - skipping...
+[9:12:33.688] All typings are known to be missing or invalid - no need to install more typings
+[9:12:33.689] Sending response:
+    {"projectName":"/dev/null/inferredProject5*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":["rea"],"kind":"action::set"}
+[9:12:33.689] Response has been sent.
+[9:12:35.548] Got install request {"projectName":"/dev/null/inferredProject5*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.component.jsx","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/global.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["reac"],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:12:35.548] Explicitly included types: []
+[9:12:35.548] Inferred 'react' typings due to presence of '.jsx' extension
+[9:12:35.548] Inferred typings from unresolved imports: ["reac"]
+[9:12:35.549] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":["reac"],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:35.549] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":["reac"],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:35.549] Installing typings ["reac"]
+[9:12:35.549] 'reac':: Entry for package 'reac' does not exist in local types registry - skipping...
+[9:12:35.549] All typings are known to be missing or invalid - no need to install more typings
+[9:12:35.549] Sending response:
+    {"projectName":"/dev/null/inferredProject5*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":["reac"],"kind":"action::set"}
+[9:12:35.549] Response has been sent.
+[9:12:35.833] Got install request {"projectName":"/dev/null/inferredProject5*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/global.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.component.jsx"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:12:35.833] Explicitly included types: []
+[9:12:35.834] Inferred 'react' typings due to presence of '.jsx' extension
+[9:12:35.834] Inferred typings from unresolved imports: []
+[9:12:35.834] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:35.834] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:35.834] Sending response:
+    {"projectName":"/dev/null/inferredProject5*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[9:12:35.834] Response has been sent.
+[9:12:35.834] No new typings were requested as a result of typings discovery
+[9:12:36.69] Got install request {"projectName":"/dev/null/inferredProject5*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.component.jsx","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/global.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["reactf"],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:12:36.70] Explicitly included types: []
+[9:12:36.70] Inferred 'react' typings due to presence of '.jsx' extension
+[9:12:36.70] Inferred typings from unresolved imports: ["reactf"]
+[9:12:36.70] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":["reactf"],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:36.70] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":["reactf"],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:36.70] Installing typings ["reactf"]
+[9:12:36.70] 'reactf':: Entry for package 'reactf' does not exist in local types registry - skipping...
+[9:12:36.70] All typings are known to be missing or invalid - no need to install more typings
+[9:12:36.71] Sending response:
+    {"projectName":"/dev/null/inferredProject5*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":["reactf"],"kind":"action::set"}
+[9:12:36.71] Response has been sent.
+[9:12:36.287] Got install request {"projectName":"/dev/null/inferredProject5*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/global.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.component.jsx"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:12:36.287] Explicitly included types: []
+[9:12:36.288] Inferred 'react' typings due to presence of '.jsx' extension
+[9:12:36.288] Inferred typings from unresolved imports: []
+[9:12:36.288] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:36.288] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:12:36.288] Sending response:
+    {"projectName":"/dev/null/inferredProject5*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[9:12:36.288] Response has been sent.
+[9:12:36.288] No new typings were requested as a result of typings discovery
+[9:13:8.577] Got install request {"projectName":"/dev/null/inferredProject5*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/global.d.ts","/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.styles.js","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/withSpinner.component.jsx"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:13:8.577] Explicitly included types: []
+[9:13:8.577] Inferred 'react' typings due to presence of '.jsx' extension
+[9:13:8.578] Inferred typings from unresolved imports: []
+[9:13:8.578] Result: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:13:8.578] Finished typings discovery: {"cachedTypingPaths":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:13:8.578] Sending response:
+    {"projectName":"/dev/null/inferredProject5*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/fdiamond/.cache/typescript/3.9/node_modules/@types/react/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[9:13:8.578] Response has been sent.
+[9:13:8.578] No new typings were requested as a result of typings discovery
+[9:13:11.183] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":[],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/fdiamond/Training/crwn-clothing/src/components/withSpinner","kind":"discover"}
+[9:13:11.183] Explicitly included types: []
+[9:13:11.184] Inferred typings from unresolved imports: []
+[9:13:11.184] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:13:11.184] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/bower_components","/home/fdiamond/Training/crwn-clothing/src/components/withSpinner/node_modules"]}
+[9:13:11.184] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[9:13:11.184] Response has been sent.
+[9:13:11.184] No new typings were requested as a result of typings discovery
