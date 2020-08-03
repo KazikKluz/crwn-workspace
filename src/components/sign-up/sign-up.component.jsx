@@ -1,8 +1,10 @@
 import React from "react";
+import { connect } from "react-redux";
 import {
   auth,
   createUserProfileDocument,
 } from "../../firebase/firebase.utils.js";
+import { signUpStart } from "../../redux/user/user.actions";
 
 import FormInput from "../../components/form-input/form-input.component.jsx";
 import CustomButton from "../../components/custom-button/custom-button.component.jsx";
@@ -27,6 +29,7 @@ class SignUp extends React.Component {
   };
 
   handleSubmit = async (e) => {
+    const { signUpStart } = this.props;
     e.preventDefault();
     const { displayName, email, password, confirmPassword } = this.state;
 
@@ -35,21 +38,7 @@ class SignUp extends React.Component {
       return;
     }
 
-    try {
-      const { user } = await auth.createUserWithEmailAndPassword(
-        email,
-        password
-      );
-      await createUserProfileDocument(user, { displayName });
-      this.setState({
-        displayName: "",
-        email: "",
-        password: "",
-        confirmPassword: "",
-      });
-    } catch (err) {
-      console.error(err);
-    }
+    signUpStart({ displayName, email, password });
   };
 
   render() {
@@ -59,7 +48,7 @@ class SignUp extends React.Component {
       <div className="sign-up">
         <h2 className="title">I do not have an account</h2>
         <span>Sign up with yout email and password</span>
-        <form action="">
+        <form action="" onSubmit={this.handleSubmit}>
           <FormInput
             type="text"
             name="displayName"
@@ -99,4 +88,8 @@ class SignUp extends React.Component {
   }
 }
 
-export default SignUp;
+const mapDispatchToProps = (dispatch) => ({
+  signUpStart: (userCredentials) => dispatch(signUpStart(userCredentials)),
+});
+
+export default connect(null, mapDispatchToProps)(SignUp);
