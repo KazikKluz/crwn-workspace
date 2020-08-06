@@ -29,10 +29,6 @@ class App extends React.Component {
     checkUserSession();
   }
 
-  componentWillUnmount() {
-    this.unsubscribeFromAuth();
-  }
-
   render() {
     return (
       <div>
