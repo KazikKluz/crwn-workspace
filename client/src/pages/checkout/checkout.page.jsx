@@ -38,7 +38,7 @@ const Checkout = ({ cartItems, total }) => (
       Please use the following test card for payments
       <br /> 4242 4242 4242 4242 - Exp: 01/21 - CVV: 123
     </div>
-    <StripeButton total={total} />
+    <StripeButton price={total} />
   </div>
 );
 
