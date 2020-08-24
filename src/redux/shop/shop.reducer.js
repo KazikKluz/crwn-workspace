@@ -1,6 +1,8 @@
 import shopActionTypes from "./shop.types";
 
-const INITIAL_STATE = null;
+const INITIAL_STATE = {
+  collections: [],
+};
 
 const shopReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
