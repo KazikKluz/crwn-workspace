@@ -11,6 +11,7 @@ import { GlobalStyle } from "./global.styles";
 import "./homepage.styles.scss";
 
 import Spinner from "./components/spinner/spinner.component";
+import ErrorBoundary from "./components/error-boundaries/error-boundaries.component";
 
 const HomePage = lazy(() => import("./homepage.component"));
 const ShopPage = lazy(() => import("./pages/shop/shop.component.jsx"));
@@ -29,19 +30,21 @@ const App = ({ currentUser, checkUserSession }) => {
       <GlobalStyle />
       <Header />
       <Switch>
-        <Suspense fallback={<Spinner />}>
-          <Route exact path="/" component={HomePage} />
+        <ErrorBoundary>
+          <Suspense fallback={<Spinner />}>
+            <Route exact path="/" component={HomePage} />
 
-          <Route path="/shop" component={ShopPage} />
-          <Route exact path="/checkout" component={Checkout} />
-          <Route
-            exact
-            path="/signin"
-            render={() =>
-              currentUser ? <Redirect to="/" /> : <SignInAndSignUpPage />
-            }
-          />
-        </Suspense>
+            <Route path="/shop" component={ShopPage} />
+            <Route exact path="/checkout" component={Checkout} />
+            <Route
+              exact
+              path="/signin"
+              render={() =>
+                currentUser ? <Redirect to="/" /> : <SignInAndSignUpPage />
+              }
+            />
+          </Suspense>
+        </ErrorBoundary>
       </Switch>
     </div>
   );
