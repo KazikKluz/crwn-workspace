@@ -9,7 +9,7 @@ import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up
 import { selectCurrentUser } from "./redux/user/user.selector";
 import { checkUserSession } from "./redux/user/user.actions";
 
-import "./App.css";
+import { GlobalStyle } from "./global.styles";
 import "./homepage.styles.scss";
 
 import HomePage from "./homepage.component";
@@ -22,6 +22,7 @@ const App = ({ currentUser, checkUserSession }) => {
 
   return (
     <div>
+      <GlobalStyle />
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
