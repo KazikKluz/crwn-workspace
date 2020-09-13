@@ -2,11 +2,10 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const path = require("path");
-const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
-
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
 }
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -24,6 +23,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.post("/payment", (req, res) => {
+  console.log(process.env.STRIPE_SECRET_KEY);
   const body = {
     source: req.body.token.id,
     amount: req.body.amount,
