@@ -9,13 +9,8 @@ import {
   selectIsCollectionsLoaded,
 } from "../../redux/shop/shop.selector";
 
-import CollectionOverview from "../../components/collection-overview/collection-overview.component";
-import CollectionPage from "../../pages/collection/collection-page";
-
-import withSpinner from "../../components/withSpinner/withSpinner.component";
-
-const CollectionOverviewWithSpinner = withSpinner(CollectionOverview);
-const CollectionPageWithSpinner = withSpinner(CollectionPage);
+import CollectionOverviewContainer from "../../components/collection-overview/collection-overview.container";
+import CollectionPageContainer from "../../pages/collection/collection-page.container";
 
 class ShopPage extends React.Component {
   state = { loading: true };
@@ -28,28 +23,18 @@ class ShopPage extends React.Component {
   }
 
   render() {
-    const { match, isCollectionLoaded } = this.props;
+    const { match } = this.props;
     return (
       <div className="shop-page">
         <Route
           exact
           path={`${match.path}`}
-          render={(props) => (
-            <CollectionOverviewWithSpinner
-              isLoading={!isCollectionLoaded}
-              {...props}
-            />
-          )}
+          component={CollectionOverviewContainer}
         />
         <Route
           exact
           path={`${match.path}/:collectionId`}
-          render={(props) => (
-            <CollectionPageWithSpinner
-              isLoading={!isCollectionLoaded}
-              {...props}
-            />
-          )}
+          component={CollectionPageContainer}
         />
       </div>
     );
