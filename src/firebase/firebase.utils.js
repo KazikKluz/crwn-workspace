@@ -11,7 +11,27 @@ const config = {
   storageBucket: "crwn-db-85c28.appspot.com",
   messagingSenderId: "282784730576",
   appId: "1:282784730576:web:998a518a1f8be5a48cfdd5",
-  measurementId: "G-418QEL0Y5K"
+  measurementId: "G-418QEL0Y5K",
+};
+
+export const createUserProfileDocument = async (userAuth, additionalData) => {
+  if (!userAuth) return;
+  const userRef = firestore.doc(`users/${userAuth.uid}`);
+  const snapshot = await userRef.get();
+  if (!snapshot.exist) {
+    const { displayName, email } = userAuth;
+    const createdAt = new Date();
+    try {
+      await userRef.set({
+        displayName,
+        email,
+        createdAt,
+        ...additionalData,
+      });
+    } catch (error) {
+      console.log("error creating user", error.message);
+    }
+  }
 };
 
 firebase.initializeApp(config);
