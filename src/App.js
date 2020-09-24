@@ -1,5 +1,8 @@
 import React from "react";
+import { connect } from "react-redux";
 import { Route, Switch, Redirect } from "react-router-dom";
+
+import { checkUserSession } from "./redux/user/user.actions";
 
 import ShopPage from "./pages/shop/shop.component.jsx";
 import Header from "./components/header/header.component.jsx";
@@ -20,7 +23,10 @@ class App extends React.Component {
 
   unsubscribeFromAuth = null;
 
-  componentDidMount() {}
+  componentDidMount() {
+    const { checkUserSession } = this.props;
+    checkUserSession();
+  }
 
   componentWillUnmount() {
     this.unsubscribeFromAuth();
@@ -51,4 +57,8 @@ class App extends React.Component {
   }
 }
 
-export default App;
+const mapDispatchToProps = (dispatch) => ({
+  checkUserSession: () => dispatch(checkUserSession()),
+});
+
+export default connect(null, mapDispatchToProps)(App);
