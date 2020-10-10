@@ -1,5 +1,4 @@
 import React from "react";
-import { auth } from "../../firebase/firebase.utils.js";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 import { selectCartHidden } from "../../redux/cart/cart.selector";
