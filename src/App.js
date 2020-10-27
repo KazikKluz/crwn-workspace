@@ -3,7 +3,6 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils.js";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
-
 import { setCurrentUser } from "./redux/user/user.actions.js";
 import ShopPage from "./pages/shop/shop.component.jsx";
 import Header from "./components/header/header.component.jsx";
