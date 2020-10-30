@@ -3,10 +3,7 @@ import { Route } from "react-router-dom";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
-import {
-  fetchCollectionsStartAsync,
-  fetchCollectionsStart,
-} from "../../redux/shop/shop.actions";
+import { fetchCollectionsStart } from "../../redux/shop/shop.actions";
 import { selectIsCollectionsLoaded } from "../../redux/shop/shop.selector";
 
 import CollectionPage from "../../pages/collection/collection-page";
