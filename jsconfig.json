@@ -6,7 +6,7 @@
         "typeRoots": ["./node_modules/@types"],
         "noEmit": true,
         "allowJs": true,
-        "checkJs": true,
+        "checkJs": false,
         "jsx": "react",
         "lib": [ "dom", "webworker", "es2017" ]
     },
